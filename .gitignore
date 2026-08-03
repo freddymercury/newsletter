@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+
+# local store — never commit the corpus or coverage history
+*.db
+*.db-shm
+*.db-wal
+data/
+
+# run output
+runs/
+*.jsonl
+
+# env
+.env
+.env.*
+!.env.example
+
+# build
+dist/
+build/
+*.tsbuildinfo
+
+# os
+.DS_Store
